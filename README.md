@@ -95,4 +95,9 @@ jupyter notebook TelecomChurnCaseStudy.ipynb
 
 ### Conclusions
 
-TBD
+* The best model is RandomForest with perfect scores 1.0 with the testing.
+* Preprocessing the data is important.
+* Kraggle Accuracy:  0.94376
+
+Since the submition to Kraggle gave a 0.94374 Accuracy Score, seems that the Random Fores model overfitted.
+This can be given the data rows that are eliminated from the TRAIN Data, we do not have a treatement of similar rows in TEST_CSV data.
